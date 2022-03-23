@@ -1,10 +1,41 @@
 .array-container {
     position: absolute;
-    left: 100px;
+    width: 100%;
+    bottom: 0px;
+}
+/* Using viewport values to scale the array bars with the width of the screen*/
+.array-bar {
+    width: calc(100vw / 150);
+    display: inline-block;
+    margin: 0 2px;
+    border-radius: 10px;
 }
 
-.array-bar {
-    width: 2px;
+.button-container {
+    width: 100%;
+    background-color: #8026b15e;
+    padding: 20px;
+}
+
+.button-style {
+    background-color: #9a38cf;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
-    margin: 0 1px;
+    font-size: 16px;
+    margin-left: 5px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.button-style:hover {
+    background-color: #8026b1;
+    color: white;
+}
+
+.button-style:active {
+    transform: translateY(4px);
 }
