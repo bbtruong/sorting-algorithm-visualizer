@@ -40,6 +40,10 @@
     transform: translateY(4px);
 }
 
+.button-style:disabled {
+    background-color: #696969;
+}
+
 .button-style-main {
     background-color: #cf38cf;
     border: none;
@@ -62,4 +66,8 @@
 
 .button-style-main:active {
     transform: translateY(4px);
+}
+
+.button-style-main:disabled {
+    background-color: #696969;
 }
