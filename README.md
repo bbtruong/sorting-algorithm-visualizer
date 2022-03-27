@@ -1,6 +1,6 @@
 # Try the Website for Yourself!
 
-https://623d3271fac4ae55f9df2b5a--admirable-sfogliatella-fa4004.netlify.app/
+You can demo the completed project using this Netlify link: https://623d3271fac4ae55f9df2b5a--admirable-sfogliatella-fa4004.netlify.app/
 
 # Getting Started with Create React App
 
